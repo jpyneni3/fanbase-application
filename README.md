@@ -1,4 +1,4 @@
-# python-getting-started
+# fanbase-application
 
 A barebones Python app, which can easily be deployed to Heroku.
 
@@ -9,7 +9,7 @@ This application supports the [Getting Started with Python on Heroku](https://de
 Make sure you have Python [installed properly](http://install.python-guide.org).  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/) and [Postgres](https://devcenter.heroku.com/articles/heroku-postgresql#local-setup).
 
 ```sh
-$ git clone git@github.com:heroku/python-getting-started.git
+$ git clone https://github.com/jpyneni3/fanbase-application.git
 $ cd python-getting-started
 
 $ pip install -r requirements.txt
