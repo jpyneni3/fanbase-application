@@ -59,8 +59,8 @@ ul.errorlist > li {
 }
 
 .form-wrapper input {
-    width: 330px;
-    height: 20px;
+    width: 250px;
+    height: 40px;
     padding: 10px 5px;
     float: left;    
     font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
