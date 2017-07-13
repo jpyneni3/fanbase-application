@@ -153,3 +153,14 @@ ul.errorlist > li {
 footer {
     padding-top: 0;
 }
+
+.page-wrap {
+    padding-bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile */
+    div.main-page {
+        justify-content: space-around;
+    }
+}
