@@ -6,10 +6,10 @@ from .models import Greeting
 # Create your views here.
 def index(request):
     # return HttpResponse('Hello from Python!')
-    return render(request, 'home/base.html')
+    return render(request, 'base.html')
 
 def signup(request):
-	return render(request, 'home/signup.html')
+	return render(request, 'signup.html')
 
 def db(request):
 
