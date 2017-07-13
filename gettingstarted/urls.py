@@ -14,4 +14,5 @@ urlpatterns = [
     url(r'^db', hello.views.db, name='db'),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^signup/', hello.views.signup, name='signup')
+    url(r'^login/', hello.views.login, name='login')
 ]
