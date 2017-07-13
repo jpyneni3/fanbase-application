@@ -149,3 +149,7 @@ ul.errorlist > li {
     border: 0;
     padding: 0;
 }
+
+footer {
+    padding-top: 0;
+}
