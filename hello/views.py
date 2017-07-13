@@ -14,6 +14,9 @@ def signup(request):
 def login(request):
 	return render(request, 'login.html')
 
+def festival(request):
+	return render(request, 'festival.html')
+
 def db(request):
 
     greeting = Greeting()
