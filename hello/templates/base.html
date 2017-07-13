@@ -15,54 +15,57 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="{% static 'hello/js/main.js' %}"></script>
 </head>
-<body>
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
+    <body>
+        <div class="page-wrap">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
 
-            <!-- Header -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topNavBar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Fanbase by Tom and Jas</a>
+                <!-- Header -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topNavBar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Fanbase by Tom and Jas</a>
+                </div>
+
+                <!-- Items -->
+                <div class="collapse navbar-collapse" id="topNavBar">
+                    <ul class="nav navbar-nav">
+                        <li class="{% block albums_active %}{% endblock %}"><a href="#"><span class="glyphicon glyphicon-cd" aria-hidden="true"></span>&nbsp; Albums</a></li>
+                        <li class="{% block songs_active %}{% endblock %}"><a href="#"><span class="glyphicon glyphicon-music" aria-hidden="true"></span>&nbsp; Songs</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-left" role="search" method="get" action="#">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="q" value="{{ request.GET.q }}">
+                        </div>
+                        <button type="submit" class="btn btn-default">Search</button>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">
+                                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp; Create Account
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>&nbsp; Login
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
-
-            <!-- Items -->
-            <div class="collapse navbar-collapse" id="topNavBar">
-                <ul class="nav navbar-nav">
-                    <li class="{% block albums_active %}{% endblock %}"><a href="#"><span class="glyphicon glyphicon-cd" aria-hidden="true"></span>&nbsp; Albums</a></li>
-                    <li class="{% block songs_active %}{% endblock %}"><a href="#"><span class="glyphicon glyphicon-music" aria-hidden="true"></span>&nbsp; Songs</a></li>
-                </ul>
-                <form class="navbar-form navbar-left" role="search" method="get" action="#">
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="q" value="{{ request.GET.q }}">
-                    </div>
-                    <button type="submit" class="btn btn-default">Search</button>
-                </form>
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#">
-                            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp; Create Account
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="glyphicon glyphicon-off" aria-hidden="true"></span>&nbsp; Login
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
+        </nav>
+        <div>
+            <form class="form-wrapper cf">
+                <input type="text" placeholder="Search here..." required>
+                <button type="submit">Search</button>
+            </form>
         </div>
-    </nav>
-    <div>
-        <form class="form-wrapper cf">
-            <input type="text" placeholder="Search here..." required>
-            <button type="submit">Search</button>
-        </form>
-    </div>
+        </div>
+    </body>
 
     <footer id="myFooter">
         <div class="container">
