@@ -29,7 +29,7 @@ html, body {
 #map-container {
     height: 240px;
     width: 100%;
-    margin-top: 0;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
