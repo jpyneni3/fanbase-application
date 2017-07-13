@@ -87,9 +87,9 @@ html, body {
     font-size: 30px;
     margin-right: 15px;
     margin-left: 20px;
-    background-color: white;
+    background-color: none;
     color: #182c39;
-    border-radius: 81%;
+    border-radius: 50%;
     padding: 10px;
     height: 50px;
     width: 100px;
