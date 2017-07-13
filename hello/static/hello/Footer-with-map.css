@@ -23,7 +23,7 @@ html, body {
 #myFooter {
     background-color: #182c39;
     color: white;
-    padding-top: 20px;
+    padding-top: 0;
 }
 
 #map-container {
