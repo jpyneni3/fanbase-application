@@ -4,10 +4,10 @@ from django.db import models
 class Greeting(models.Model):
     when = models.DateTimeField('date created', auto_now_add=True)
 
-#class User(models.Model):
-# 	username = models.charField(max_length = 30)
-# 	password = models.charField(max_length = 30)
-# 	email = models.charField(max_length = 30)
+class User(models.Model):
+ 	username = models.CharField(max_length = 30)
+ 	password = models.CharField(max_length = 30)
+ 	email = models.CharField(max_length = 30)
 
 # class Festval(models.Model):
 # 	begin_date = models.charField(max_length = 30)
