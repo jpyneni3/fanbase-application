@@ -9,8 +9,8 @@ class User(models.Model):
  	password = models.CharField(max_length = 30)
  	email = models.CharField(max_length = 30)
 
-# class Festval(models.Model):
-# 	begin_date = models.charField(max_length = 30)
-# 	end_date = models.charField(max_length = 30)
-# 	name = models.charField(max_length = 30)
-# 	artist_lineup = models.charField(max_length = 30)
+class Festival(models.Model):
+	begin_date = models.CharField(max_length = 30)
+	end_date = models.CharField(max_length = 30)
+	name = models.CharField(max_length = 30)
+	artist_lineup = models.CharField(max_length = 30)
