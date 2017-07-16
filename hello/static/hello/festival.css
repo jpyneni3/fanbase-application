@@ -47,7 +47,7 @@ ul.errorlist > li {
 }
 
 .containerLeft {
-    position: absolute;
+    float: left;
     top: 0; 
     bottom: 0; 
     left: 0;
@@ -57,6 +57,7 @@ ul.errorlist > li {
 }
 
 .containerRight {
+    float: right;
     margin: 0 0 0 42%;
     width: 38%;
     background: #eeeeee;
