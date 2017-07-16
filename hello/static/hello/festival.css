@@ -8,6 +8,7 @@ ul.errorlist > li {
 
 .navbar {
     border-radius: 0;
+    margin-bottom: 0;
 }
 
 .navbar-brand {
@@ -41,7 +42,7 @@ ul.errorlist > li {
 
 #concert {
   width: 70%; 
-  float: right;
+  float: left;
 }
 
 #concert-main {
@@ -54,5 +55,5 @@ ul.errorlist > li {
 
 #concert-image {
   width: 30%; 
-  float: left;
+  float: right;
 }
