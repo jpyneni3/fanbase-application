@@ -2,9 +2,9 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 from .models import User
-# Create your views here.
+from .models import Festival
+
 def index(request):
-    # return HttpResponse('Hello from Python!')
     return render(request, 'base.html')
 
 def signup(request):
@@ -17,8 +17,8 @@ def festival(request):
 	return render(request, 'festival.html')
 
 def db(request):
-	User.objects.all().delete()
-	user = User(username="Jas",password="password")
-	user.save()
-	users = User.objects.all()
-	return render(request, 'db.html', {'users': users})
+	Festival.objects.all().delete()
+	festival = Festival(begin_date = 'Saturday 17 September 2016', end_date = 'Sunday 18 September 2016', name = 'Music Midtown', artist_lineup = 'Lil Wayne, The Killers, Kesha, The Lumineers, Beck, Deadmau5, Band of Horses, Twenty One Pilots, 2 Chainz, Alabama Shakes, G-Eazy, CHVRCHES, Peter Bjorn and John, James Bay, Corinne Bailey Rae, Melanie Martinez, St. Lucia, Big Boi, Mayer Hawthorne, DNCE, Daya, DJ Mustard, Pete Yorn, Leon Bridges, Raury, Zella Day, Lucius, Nathaniel Rateliff & The Night Sweats, Balkan Beat Box, NF, The Coathangers, JOSEPH, and The Shadowboxers')
+	festival.save()
+	festivals = Festival.objects.all()
+	return render(request, 'db.html', {'festival': festival})

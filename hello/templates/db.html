@@ -14,10 +14,11 @@
 
 <ul>
 
-{% for user in users %}
-    <li>Username: {{ user.username }}</li>
-    <li>Password: {{ user.password }}</li>
-    <li>Email: {{ user.email }}</li>
+{% for festival in festivals %}
+    <li>Begin Date: {{ festival.begin_date }}</li>
+    <li>End Date: {{ festival.end_date }}</li>
+    <li>Name: {{ festival.name }}</li>
+    <li>artist_lineup: {{ festival.artist_lineup }}</li>
 {% endfor %}
 
 </ul>
