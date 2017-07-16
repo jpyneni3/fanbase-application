@@ -128,3 +128,8 @@ span.psw {
     width: 40%;
     background: white;
 }
+
+fb-login-button {
+    margin: 8px 0;
+    padding: 14px 20px;
+}
