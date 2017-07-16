@@ -41,6 +41,8 @@ ul.errorlist > li {
 
 #concert {
   background-color: #eeeeee;
+  padding-bottom: 100%;
+  margin-bottom: -100%;
 }
 
 #concert-main {
