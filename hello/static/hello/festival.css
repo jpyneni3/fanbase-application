@@ -37,3 +37,11 @@ ul.errorlist > li {
 .cf{
   zoom:1;
 }
+
+#concert-main {
+  background-color: #d3d3d3;
+}
+
+#concert-body {
+  background-color: white;
+}
