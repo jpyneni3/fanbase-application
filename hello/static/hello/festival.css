@@ -39,8 +39,11 @@ ul.errorlist > li {
   zoom:1;
 }
 
-#concert-main {
+#concert {
   background-color: #eeeeee;
+}
+
+#concert-main {
   float: left;
   width: 70%; 
 }
