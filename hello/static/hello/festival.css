@@ -39,7 +39,18 @@ ul.errorlist > li {
   zoom:1;
 }
 
-#concert {
+.container {
+    overflow: hidden;
+}
+.column {
+    float: left;
+    margin: 20px;
+    background-color: grey;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+
+/*#concert {
   background-color: #eeeeee;
   padding-bottom: 100%;
   margin-bottom: -100%;
@@ -59,4 +70,4 @@ ul.errorlist > li {
 
 #concert-body {
   background-color: white;
-}
+}*/
