@@ -18,8 +18,7 @@ def festival(request):
 
 def db(request):
 	User.objects.all().delete()
-    user = User(username="Jas",password="password")
-    user.save()
-    users = User.objects.all()
-
-    return render(request, 'db.html', {'users': users})
+	user = User(username="Jas",password="password")
+	user.save()
+	users = User.objects.all()
+	return render(request, 'db.html', {'users': users})
