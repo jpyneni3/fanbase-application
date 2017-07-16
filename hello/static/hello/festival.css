@@ -46,27 +46,23 @@ ul.errorlist > li {
 
 }
 
-.column {
-    padding-bottom: 100%;
-    padding-left: 0;
-    padding right: 0;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: -100%;
-    float: left;
+.container {
+    position: relative;
 }
 
-#column1 {
-    width: 70%;
+.containerLeft {
+    position: absolute;
+    top: 0; bottom: 0; left: 0;
+    width:70%;
+    padding: 2%;
     background-color: #eeeeee;
 }
 
-#column2 {
+.containerRight {
+    margin: 0 0 0 42%;
     width: 30%;
-    background-color: #eeeeee;
+    background: #eeeeee;
 }
-
 /*#concert {
   background-color: #eeeeee;
   padding-bottom: 100%;
