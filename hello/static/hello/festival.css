@@ -58,7 +58,7 @@ ul.errorlist > li {
 
 .containerRight {
     float: right;
-    margin: 0 0 0 42%;
+    margin: 0 0 0 0;
     width: 29%;
     background: #eeeeee;
 }
