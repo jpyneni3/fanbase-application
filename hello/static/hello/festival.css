@@ -51,7 +51,7 @@ ul.errorlist > li {
     top: 0; 
     bottom: 0; 
     left: 0;
-    width: 58%;
+    width: 70%;
     padding: 2%;
     background-color: #eeeeee;
 }
@@ -59,7 +59,7 @@ ul.errorlist > li {
 .containerRight {
     float: right;
     margin: 0 0 0 42%;
-    width: 38%;
+    width: 30%;
     background: #eeeeee;
 }
 /*#concert {
