@@ -52,14 +52,16 @@ ul.errorlist > li {
 
 .containerLeft {
     position: absolute;
-    top: 0; bottom: 0; left: 0;
+    top: 0; 
+    bottom: 0; 
+    left: 0;
     width:70%;
     padding: 2%;
     background-color: #eeeeee;
 }
 
 .containerRight {
-    margin: 0 0 0 42%;
+    margin: 0 0 0 0;
     width: 30%;
     background: #eeeeee;
 }
