@@ -16,6 +16,9 @@ def login(request):
 def festival(request):
 	return render(request, 'festival.html')
 
+def hotel(request):
+	return render(request, 'hotel.html')
+
 def db(request):
 	Festival.objects.all().delete()
 	festival = Festival(begin_date = 'Saturday 17 September 2016', end_date = 'Sunday 18 September 2016', name = 'Music Midtown 2016', artist_lineup = 'Lil Wayne, The Killers')
