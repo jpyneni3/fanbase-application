@@ -59,6 +59,10 @@ button {
     width: 100%;
 }
 
+fb-login-button {
+    margin: 8px 0;
+    padding: 14px 20px;
+}
 
 /* Extra styles for the cancel button */
 .cancelbtn {
