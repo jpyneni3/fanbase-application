@@ -41,6 +41,9 @@ ul.errorlist > li {
 
 .container {
     overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+
 }
 .column {
     float: left;
