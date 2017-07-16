@@ -40,8 +40,12 @@ ul.errorlist > li {
 
 #concert-main {
   background-color: #eeeeee;
+  width: 80%; 
+  float: left;
 }
 
 #concert-body {
   background-color: white;
+  width: 20%; 
+  float: right;
 }
