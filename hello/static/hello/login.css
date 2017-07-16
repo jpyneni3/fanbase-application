@@ -56,7 +56,6 @@ button {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
 }
 
 fb-login-button {
@@ -73,7 +72,7 @@ fb-login-button {
 /* Float cancel and signup buttons and add an equal width */
 .cancelbtn,.signupbtn {
     float:left;
-    width:50%
+    width:30%
 }
 
 /* Add padding to container elements */
@@ -132,4 +131,26 @@ fb-login-button {
     .cancelbtn, .signupbtn {
        width: 100%;
     }
+}
+
+
+.container {
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.containerLeft {
+    float: left;
+    width: 70%;
+    background-color: white;
+    margin-left: 0;
+}
+
+.containerRight {
+    float: right;
+    margin: 0 0 0 0;
+    width: 30%;
+    background: white;
 }
