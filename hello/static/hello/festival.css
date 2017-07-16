@@ -51,15 +51,15 @@ ul.errorlist > li {
     top: 0; 
     bottom: 0; 
     left: 0;
-    width:38%;
+    width: 70%;
     padding: 2%;
-    background-color: crimson;
+    background-color: #eeeeee;
 }
 
 .containerRight {
     margin: 0 0 0 42%;
-    width: 58%;
-    background: dodgerblue;
+    width: 30%;
+    background: #eeeeee;
 }
 /*#concert {
   background-color: #eeeeee;
