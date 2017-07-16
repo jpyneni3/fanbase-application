@@ -44,15 +44,17 @@ ul.errorlist > li {
 }
 
 #concert-main {
+  background-color: #eeeeee;
   float: left;
   width: 70%; 
 }
 
-#concert-body {
-  background-color: white;
-}
-
 #concert-image {
+  background-color: #eeeeee;
   width: 30%; 
   float: right;
+}
+
+#concert-body {
+  background-color: white;
 }
