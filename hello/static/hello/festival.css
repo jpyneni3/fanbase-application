@@ -51,6 +51,7 @@ ul.errorlist > li {
     width: 70%;
     background-color: white;
     margin-left: 5%;
+    margin-top: 5%;
     padding-left: 0
 }
 
@@ -60,6 +61,7 @@ ul.errorlist > li {
     width: 30%;
     background: white;
     margin-right: 5%;
+    margin-top: 5%;
     padding-right: 0
 }
 }
