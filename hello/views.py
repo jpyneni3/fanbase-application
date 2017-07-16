@@ -18,8 +18,8 @@ def festival(request):
 
 def db(request):
 	Festival.objects.all().delete()
-	festival = Festival(begin_date = 'Saturday 17 September 2016', end_date = 'Sunday 18 September 2016', name = 'Music Midtown', artist_lineup = 'Lil Wayne, The Killers, Kesha')
-	festival2 = Festival(begin_date = 'Saturday 17 September 2016', end_date = 'Sunday 18 September 2016', name = 'Music Midtown', artist_lineup = 'Lil Wayne, The Killers, Kesha')
+	festival = Festival(begin_date = 'Saturday 17 September 2016', end_date = 'Sunday 18 September 2016', name = 'Music Midtown 2016', artist_lineup = 'Lil Wayne, The Killers, Kesha, The Lumineers, Beck, Deadmau5, Band of Horses, and Twenty One Pilots')
+	festival2 = Festival(begin_date = 'Friday 19 September 2014', end_date = 'Saturday 20 September 2014', name = 'Music Midtown 2014', artist_lineup = 'Eminem, Lana Del Rey, John Mayer, B.o.B, Lorde, Bastille, Twenty One Pilots, and Iggy Azalea')
 	festival.save()
 	festival2.save()
 	festivals = Festival.objects.all()

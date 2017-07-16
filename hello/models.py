@@ -10,7 +10,7 @@ class User(models.Model):
  	email = models.CharField(max_length = 30)
 
 class Festival(models.Model):
-	begin_date = models.CharField(max_length = 30)
-	end_date = models.CharField(max_length = 30)
-	name = models.CharField(max_length = 30)
-	artist_lineup = models.CharField(max_length = 30)
+	begin_date = models.CharField(max_length = 60)
+	end_date = models.CharField(max_length = 60)
+	name = models.CharField(max_length = 60)
+	artist_lineup = models.CharField(max_length = 60)
