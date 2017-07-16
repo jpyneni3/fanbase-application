@@ -44,9 +44,11 @@ ul.errorlist > li {
 }
 .column {
     float: left;
-    margin: 20px;
-    background-color: grey;
+    background-color: #eeeeee;
     padding-bottom: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: -100%;
 }
 
