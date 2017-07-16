@@ -55,7 +55,11 @@
         <div>
             <form class="form-wrapper cf">
                 <input type="text" placeholder="Enter artist / concert / venue">
-                <button type="submit">Search</button>
+                <button type="submit">
+                    <a href="{% url 'db' %}">
+                    Search
+                    </a>
+                </button>
             </form>
         </div>
 
