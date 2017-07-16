@@ -61,7 +61,7 @@ button {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width:30%
 }
 
 /* Add a hover effect for buttons */
@@ -106,4 +106,25 @@ span.psw {
     .cancelbtn {
         width: 100%;
     }
+}
+
+.container {
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.containerLeft {
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+    background-color: white;
+}
+
+.containerRight {
+    float: right;
+    margin-right: 10%;
+    width: 40%;
+    background: white;
 }
