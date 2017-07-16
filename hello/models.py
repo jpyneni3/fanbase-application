@@ -13,4 +13,4 @@ class Festival(models.Model):
 	begin_date = models.CharField(max_length = 30)
 	end_date = models.CharField(max_length = 30)
 	name = models.CharField(max_length = 30)
-	artist_lineup = models.CharField(max_length = 1000)
+	artist_lineup = models.CharField(max_length = 30)
