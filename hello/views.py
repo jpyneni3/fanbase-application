@@ -21,4 +21,4 @@ def db(request):
 	festival = Festival(begin_date = 'Saturday 17 September 2016', end_date = 'Sunday 18 September 2016', name = 'Music Midtown', artist_lineup = 'Lil Wayne, The Killers, Kesha')
 	festival.save()
 	festivals = Festival.objects.all()
-	return render(request, 'db.html', {'festival': festival})
+	return render(request, 'db.html', {'festivals': festivals})
