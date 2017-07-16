@@ -46,24 +46,20 @@ ul.errorlist > li {
 
 }
 
-.container {
-    position: relative;
-}
-
 .containerLeft {
     position: absolute;
     top: 0; 
     bottom: 0; 
     left: 0;
-    width:70%;
+    width:38%;
     padding: 2%;
-    background-color: #eeeeee;
+    background-color: crimson;
 }
 
 .containerRight {
-    margin: 0 0 0 0;
-    width: 30%;
-    background: #eeeeee;
+    margin: 0 0 0 42%;
+    width: 58%;
+    background: dodgerblue;
 }
 /*#concert {
   background-color: #eeeeee;
