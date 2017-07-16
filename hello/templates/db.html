@@ -58,7 +58,7 @@
 <ul>
 
 {% for festival in festivals %}
-	<h2><a href="{ urls 'festival' }"><strong>{{ festival.name }}</strong></a></h2>
+	<h2><a href="{ url 'hello.views.festival' }"><strong>{{ festival.name }}</strong></a></h2>
     <li>Begin Date: {{ festival.begin_date }}</li>
     <li>End Date: {{ festival.end_date }}</li>
     <li>Artist Lineup: {{ festival.artist_lineup }}</li>
