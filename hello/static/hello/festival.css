@@ -50,8 +50,6 @@ ul.errorlist > li {
     float: left;
     width: 70%;
     background-color: white;
-    margin-left: 5%;
-    margin-top: 5%;
     padding-left: 0
 }
 
@@ -60,14 +58,10 @@ ul.errorlist > li {
     margin: 0 0 0 0;
     width: 30%;
     background: white;
-    margin-right: 5%;
-    margin-top: 5%;
     padding-right: 0
-}
-}
 }
 
 #concert-body {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
