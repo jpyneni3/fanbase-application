@@ -172,3 +172,7 @@ body {
         justify-content: space-around;
     }
 }
+
+#home {
+    margin: 200px auto 50px auto;
+}
