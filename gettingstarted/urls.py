@@ -16,5 +16,6 @@ urlpatterns = [
     url(r'^signup/', hello.views.signup, name='signup'),
     url(r'^login/', hello.views.login, name='login'),
     url(r'^festival/', hello.views.festival, name='festival'),
-    url(r'^hotel/', hello.views.hotel, name='hotel')
+    url(r'^hotel/', hello.views.hotel, name='hotel'),
+    url(r'^flight/', hello.views.flight, name='flight')
 ]
