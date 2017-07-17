@@ -10,6 +10,7 @@ urlpatterns = [
 	url(r'^festival/$', views.festival, name='festival'),
 	url(r'^db/$', views.db, name='db'),
 	url(r'^hotel/$', views.hotel, name='hotel'),
-	url(r'^flight/', hello.views.flight, name='flight'),
-	url(r'^confirmation/', hello.views.confirmation, name='confirmation')
+	url(r'^flight/', views.flight, name='flight'),
+	url(r'^confirmation/', views.confirmation, name='confirmation'),
+	url(r'^itinerary/', views.itinerary, name='itinerary')
 ] 

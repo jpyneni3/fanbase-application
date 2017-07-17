@@ -18,5 +18,6 @@ urlpatterns = [
     url(r'^festival/', hello.views.festival, name='festival'),
     url(r'^hotel/', hello.views.hotel, name='hotel'),
     url(r'^flight/', hello.views.flight, name='flight'),
-    url(r'^confirmation/', hello.views.confirmation, name='confirmation')
+    url(r'^confirmation/', hello.views.confirmation, name='confirmation'),
+    url(r'^itinerary/', hello.views.itinerary, name='itinerary')
 ]
