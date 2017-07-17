@@ -25,6 +25,9 @@ def flight(request):
 def confirmation(request):
 	return render(request, 'confirmation.html')
 
+def itinerary(request):
+	return render(request, 'itinerary.html')
+
 def db(request):
 	Festival.objects.all().delete()
 	festival = Festival(begin_date = 'Saturday 17 September 2016', end_date = 'Sunday 18 September 2016', name = 'Music Midtown 2016', artist_lineup = 'Lil Wayne, The Killers')
