@@ -205,11 +205,10 @@
           <textarea name="comments" class="floatLabel" id="comments"></textarea>
           <label for="comments">Comments</label>
           </div>
-            <button type="submit" value="Submit" class="col-1-4">Submit</button>
+            <button type="submit" value="Submit" class="col-1-4"><a href="{% url 'hello.views.flight' %}">Submit</a></button>
       </div>  
   </div> <!-- /.form-group -->
 </form>
-        <button><a href="{% url 'hello.views.flight' %}">Next</a></button>
 
     </body>
     </html>
